@@ -1,5 +1,5 @@
 # LightNet
-<img src="https://github.com/parikshit-gupta/LightNet/image.jpeg" width="250"/>
+<img src="[https://github.com/parikshit-gupta/LightNet/image.jpeg](https://github.com/parikshit-gupta/LightNet/blob/main/image.jpeg)" width="250"/>
 
 A small and simple framework which implements the concept of computational graphs and reverse auto-diff with a neural network library on top of it with tensorflow/pytorch like API. It breaks each neural network into the mini operations that make it i.e. the dot product and the activation(LightNet only supports the sigmoid activation). All data and mini operations are stored in nodes of a dynamically built computational graph, these nodes knit together to build neurons, which inturn are knit to get layers and finally the layers are knit to get the neural network.
 
